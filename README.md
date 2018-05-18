@@ -22,3 +22,7 @@ Finally, by default, banned.h will add these two:
 #define _CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES_MEMORY	(1)
 
 Which auto-migrates certain functions to safer functions if the destination buffer size is known at compile time. More info at https://docs.microsoft.com/en-us/cpp/c-runtime-library/secure-template-overloads
+
+The header is still actively used across Microsoft and various other companies, but it's not the only way of managing the 'insecure API' problem. 
+
+For example, VC++ has the C4996 depracation warning, but this addresses more than security. https://docs.microsoft.com/en-us/cpp/error-messages/compiler-warnings/compiler-warning-level-3-c4996 for more info.
