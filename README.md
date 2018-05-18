@@ -17,7 +17,7 @@ If you use strsafe.h in the code prior to referencing banned.h; the header will 
 
 Finally, by default, banned.h will add these two:
 
-define _CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES			(1)
-define _CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES_MEMORY	(1)
+#define _CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES			(1)
+#define _CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES_MEMORY	(1)
 
 Which auto-migrates certain functions to safer functions if the destination buffer size is known at compile time. More info at https://docs.microsoft.com/en-us/cpp/c-runtime-library/secure-template-overloads
