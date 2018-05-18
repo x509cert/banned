@@ -40,7 +40,8 @@
 * 01-Feb-2013 - martinwo - Added license to header
 * 09-Jan-2014 - mikehow  - Combined the current external and internal versions
 * 10-Feb-2015 - mikehow  - Added gcc/clang support (thanks to Ramsey Dow) 
-*						   Note that many of the APIs are Windows specific, however. 
+*                          Note that many of the APIs are Windows specific, however.
+* 18-May-2018 - mikehow  - Updated URL for info about the auto-migrate feature in VC++
 * 
 ***/
 
@@ -52,7 +53,7 @@
 
 // Flip the 'auto-migrate' functionality in VC++
 // Some functions, such as strcpy() are changed to safer functions by the compiler
-// More info: http://blogs.msdn.com/b/sdl/archive/2010/02/16/vc-2010-and-memcpy.aspx
+// More info: https://docs.microsoft.com/en-us/cpp/c-runtime-library/secure-template-overloads
 #ifndef _SDL_DONT_AUTO_FIX
 
 #	pragma warning(push)
