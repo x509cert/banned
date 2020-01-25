@@ -57,7 +57,7 @@
 #ifndef _SDL_DONT_AUTO_FIX
 
 #	pragma warning(push)
-#	pragma warning(disable: 4005)
+#	pragma warning(disable: 4005) // Turns off macro redefinition warnings
 
 	// strcpy etc
 #	define _CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES			(1)
