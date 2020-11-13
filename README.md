@@ -26,5 +26,3 @@ Which auto-migrates certain functions to safer functions if the destination buff
 The header is still actively used across Microsoft and various other companies, but it's not the only way of managing the 'insecure API' problem. 
 
 For example, VC++ has the C4996 depracation warning, but this addresses more than security. https://docs.microsoft.com/en-us/cpp/error-messages/compiler-warnings/compiler-warning-level-3-c4996 for more info.
-
-UPDATE: banned.h is part of the GitHub Polar Project!
