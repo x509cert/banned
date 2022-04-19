@@ -155,7 +155,6 @@
 #			pragma GCC poison alloca _alloca
 #			pragma GCC poison ChangeWindowMessageFilter
 
-#endif
-#endif // _MSC_VER_
-
+#		endif
+#	endif // _MSC_VER_
 #endif  // _INC_BANNED 
